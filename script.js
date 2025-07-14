@@ -22,13 +22,13 @@ addTodobutton.addEventListener("click", () => {
   todoChild.appendChild(create_DeleteTodoButton);
 
   const create_MarkAsCompletedTodoButton = document.createElement("button");
-  create_MarkAsCompletedTodoButton.innerText = " Mark as Completed ";
+  create_MarkAsCompletedTodoButton.innerText = " ✓ ";
   create_MarkAsCompletedTodoButton.setAttribute("id", todoId);
   create_MarkAsCompletedTodoButton.setAttribute("class", "Completed-button");
   todoChild.appendChild(create_MarkAsCompletedTodoButton);
 
   const create_EditTodoButton = document.createElement("button");
-  create_EditTodoButton.innerText = " Edit this todo ";
+  create_EditTodoButton.innerText = " Edit ";
   create_EditTodoButton.setAttribute("id", todoId);
   create_EditTodoButton.setAttribute("class", "Edit-button");
   todoChild.appendChild(create_EditTodoButton);
